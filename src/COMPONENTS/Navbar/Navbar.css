@@ -1,0 +1,99 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow:  0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+nav svg{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+nav .s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+    object-fit: contain;
+}
+
+
+nav .searchbar{
+    display: flex;
+    border: none;
+    width: 50%;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+
+nav .searchbar input{
+    border: none;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+nav .searchbar svg{
+    color: var(--col1);
+}
+
+nav .searchbar button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .s2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    padding: 5px;
+}
+nav .s2 a{
+    cursor: pointer;
+    color: black;
+    /* background-color: aqua; */
+}
+nav .s2 a:hover{
+    color: var(--col1);
+    background-color: white;
+}
+nav .cart{
+    position: relative;
+    margin: 0px 20px;
+} 
+
+nav .cart .qty{
+    background-color: var(--col1);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    width: 25px;
+    height:25px;
+    top: -15px;
+    right: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}

@@ -1,0 +1,19 @@
+.allproducts{
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+    
+}
+
+.allproducts h1{
+    font-size: 30px;
+    margin: 0px 0px 10px 10px;
+}
+
+.allproducts .products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* max 4 in a row */
+    max-width: 1400px;
+}
