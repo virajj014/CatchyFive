@@ -15,5 +15,5 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     /* max 4 in a row */
-    max-width: 1400px;
+    /* max-width: 1400px; */
 }
