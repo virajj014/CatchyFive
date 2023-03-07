@@ -6,17 +6,33 @@
 
 .categorysidebar .category{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
     border: 1px solid #ececec;
     border-collapse: collapse;
     /* justify-content: space-between; */
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     cursor: pointer;
 }
-.categorysidebar .category:hover{
-    background-color: #f7f7f7;
+
+.category .s1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 10px 20px;
 }
-.categorysidebar .category h3{
+.category .s1 .dropicon{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #848484;
+    width: 15px;
+}
+.categorysidebar .category .s1:hover{
+    background-color: #fcfcfc;
+}
+.categorysidebar .category .s1 h3{
    margin: 0px 20px;
    font-size: 18px;
 }
@@ -24,4 +40,19 @@
 .categorysidebar .category img{
     width: 40px;
     height: 40px;
+}
+
+.categorysidebar .s2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    margin-top: 3px;
+}
+
+.categorysidebar .s2 p{
+    font-size: 14px;
+    margin: 0px;
+    color: #000000;
+    padding: 10px 0px;
+    cursor: pointer;
 }

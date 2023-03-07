@@ -1,8 +1,8 @@
 import React from 'react'
-import img1 from '../../ASSETS/Images/1.png'
-import img2 from '../../ASSETS/Images/2.png'
-import img3 from '../../ASSETS/Images/3.png'
-import img4 from '../../ASSETS/Images/4.png'
+import img1 from '../../ASSETS/1.png'
+import img2 from '../../ASSETS/2.png'
+import img3 from '../../ASSETS/3.png'
+import img4 from '../../ASSETS/4.png'
 import './HomeCategories.css'
 
 

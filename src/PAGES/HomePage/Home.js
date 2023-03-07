@@ -1,5 +1,6 @@
 import React from 'react'
 import BannerSlider from '../../COMPONENTS/Banners/BannerSlider'
+import HomeSlider from '../../COMPONENTS/Banners/HomeSlider'
 import HomeCategories from '../../COMPONENTS/Category/HomeCategories'
 import Footer1 from '../../COMPONENTS/Footer/Footer1'
 import Footer2 from '../../COMPONENTS/Footer/Footer2'
@@ -10,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <BannerSlider/>
+            <HomeSlider/>
             <HomeCategories/>
             <Products_Sidebar/>
             <Footer1/>

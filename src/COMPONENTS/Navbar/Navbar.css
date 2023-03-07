@@ -58,7 +58,15 @@ nav .right{
     align-items: center;
     gap: 10px;
 }
-
+nav #dropdown-basic{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    /* background-color: aqua; */
+}
 nav .s2{
     display: flex;
     flex-direction: row;
@@ -70,6 +78,7 @@ nav .s2{
 nav .s2 a{
     cursor: pointer;
     color: black;
+    font-weight: 600;
     /* background-color: aqua; */
 }
 nav .s2 a:hover{

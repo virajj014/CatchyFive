@@ -14,11 +14,18 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .homecategories .container img{
-    height: 80%;
+    height: 100%;
     object-fit: cover;
+    scale: 0.8;
+}
+
+.homecategories .container img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .homecategories .container .content{
@@ -39,17 +46,17 @@
     font-size: 15px;
 }
 .homecategories .container:nth-child(1) {
-    background-color: #fbdc6e;
+    background-color: #fbdc6e81;
 }
 
 .homecategories .container:nth-child(2) {
-    background-color: #ff9393;
+    background-color: #ff93937f;
 }
 
 .homecategories .container:nth-child(3) {
-    background-color: #ffabe4;
+    background-color: #ffabe477;
 }
 
 .homecategories .container:nth-child(4) {
-    background-color: #a8d0e6;
+    background-color: #a8d0e67e;
 }
